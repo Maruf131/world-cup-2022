@@ -1,0 +1,117 @@
+body {
+    margin: 0 padding: 0;
+}
+
+/*banner part*/
+.banner {
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    border-radius: 20px;
+    margin-top: 50PX;
+    height: 80vh;
+    padding: 20px 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.half-width {
+    margin-right: 20px;
+}
+
+.half-width h1 {
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.half-width p {
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.button-1 {
+    background-color: red;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.half-width img {
+    height: 500px;
+}
+
+
+
+
+
+.grid-add {
+    display: grid;
+    margin-left: 20%;
+    margin-right: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+
+}
+
+.child {
+    padding: 5px;
+    border: 0.5px solid rgb(218, 216, 216);
+    border-radius: 5px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(75, 71, 71);
+}
+
+footer {
+    background-color: black;
+    margin: 0px;
+    height: 200px;
+    text-align: center;
+}
+
+footer h1 {
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: 700;
+}
+.linking-add{
+    background-color: black;
+    width: 250px;
+    height: 100px;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.linking-add a{
+    text-decoration: none;
+    color: black;
+
+}
+.link{
+    background-color: rgb(252, 246, 246);
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#color{
+    background-color: brown;
+}
